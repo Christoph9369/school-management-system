@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+
+    --pri: rgb(35, 105, 171);
+    --priSoft: rgb(138, 185, 229);
+    --priHard: rgb(0, 36, 70);
+    --priTrans: rgba(35, 105, 171, 0.444);
+
+    --sec: #403601;
+    --secOverlay: rgba(70, 59, 1, 0.611);
+    --secSoft: #eca306;
+    --secTrans: rgba(233, 190, 0, 0.736);
+
+    --shadowSoft: rgba(115, 174, 230, 0.309);
+    --shadowHard: rgba(0, 36, 70, 0.307);
+    --bg: rgb(183, 218, 255);
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: var(--bg);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

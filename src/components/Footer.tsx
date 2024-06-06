@@ -12,7 +12,7 @@ const Footer = () => {
             <h2 className="text-lg font-semibold mb-4">Christoph Felix</h2>
             <div className="flex space-x-4">
               <Link
-                href="https://www.linkedin.com/in/christoph"
+                href="https://www.linkedin.com/in/felix-mojuye-909144135/"
                 target="_blank"
                 className="text-gray-400 hover:text-white flex items-center"
               >

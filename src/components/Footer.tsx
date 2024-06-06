@@ -41,7 +41,7 @@ const Footer = () => {
             <h2 className="text-lg font-semibold mb-4">Amos Kipkorir</h2>
             <div className="flex space-x-4">
               <Link
-                href="https://x.com/MojuyeF"
+                href="https://www.linkedin.com/in/amos-koech-5b2974298/"
                 target="_blank"
                 className="text-gray-400 hover:text-white flex items-center"
               >

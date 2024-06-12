@@ -123,6 +123,7 @@ function NavBar() {
               ))}
             </Menu>
           </Box>
+          {/* Icon's Logo */}
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="h5"

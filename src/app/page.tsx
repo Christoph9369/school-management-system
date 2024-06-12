@@ -32,9 +32,11 @@ export default function Home() {
           }}
         >
           <Box>
+            {/* Fun options */}
             <Typography variant="h2">Fun Options Here</Typography>
           </Box>
         </Box>
+
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <LoginOptions />
         </Box>
